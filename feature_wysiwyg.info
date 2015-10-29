@@ -1,0 +1,14 @@
+name = Feature WYSIWYG
+description = Configures WYSIWYG editor for Drupal 7
+core = 7.x
+package = Features
+version = 7.x-1.0
+dependencies[] = features
+dependencies[] = filter
+dependencies[] = wysiwyg
+dependencies[] = ckeditor
+dependencies[] = diff
+features[features_api][] = api:2
+features[filter][] = full_html
+features[wysiwyg][] = full_html
+project path = sites/all/modules/features
